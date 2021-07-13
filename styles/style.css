@@ -46,20 +46,20 @@ a{
 .top-container{
     background-color: #2D25A0;
     height: 600px;
+    margin-bottom: 70px;
 }
 .half-width{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 102px;
+    display: flex;
+    justify-content: space-between;
     padding-top: 67px;
 }
 
 .home-title{
-    margin-left: 150px;
+    margin-left: 105px;
 }
 
 .home-title h1{
-    font-size: 60px;
+    font-size: 64px;
     font-weight: bold;
     color: white;
     margin-bottom: 27px;
@@ -69,7 +69,6 @@ a{
 .watch-button:hover .watch-text{
     background-color: white;
     color: #2D25A0;
-    /* transition: 1s; */
 }
 
 .watch-text{
@@ -86,7 +85,7 @@ a{
 }
 
 .home-image img{
+    margin-right: 90px;
     width: 550px;
     height: 430px;
-    /* margin-right: 140px; */
 }
