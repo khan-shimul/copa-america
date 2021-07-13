@@ -89,3 +89,39 @@ a{
     width: 550px;
     height: 430px;
 }
+
+/* Players Styles */
+/* .players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player{
+    width: 330px;
+    height: 474px;
+}
+
+.player, .thumbnail img{
+    width: 300px;
+    height: 256px;
+} */
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    column-gap: 27px;
+    margin-right: 210px;
+    margin-left: 180px;
+    margin-bottom: 50px;
+}
+
+.player{
+    padding: 15px;
+    box-shadow: 0px 0px 40px lightgray;
+}
+
+.player .thumbnail img{
+    width: 300px;
+    height: 256px;
+}
