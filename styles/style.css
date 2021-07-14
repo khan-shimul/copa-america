@@ -278,6 +278,7 @@ a{
     .top-container{
         width: 100%;
     }
+
     .half-width{
         padding-top: 0;
         flex-direction: column;
@@ -293,6 +294,7 @@ a{
         line-height: 50px;
         margin-bottom: 30px;
     }
+
     .home-image img{
         width: 300px;
         height: 230px;
@@ -322,22 +324,17 @@ a{
         font-size: 25px;
     }
 
-    .footer-logo img{
-        width: 300px;
-
+    .photo-album{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 200px;
     }
 
     .bottom-section{
-        padding: 0;
+        margin-top: 1900px;
     }
 
-    .social-icon{
-        margin: 0;
-        padding: 0;
-    }
-
-    .photo-album{
-        grid-template-columns: repeat(1, 1fr);
-
+    .footer-logo img{
+        width: 280px;
     }
 }
