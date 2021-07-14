@@ -44,6 +44,7 @@ a{
 
 /* Top Banner Styles */
 .top-container{
+    width: 100%;
     background-color: #2D25A0;
     height: 600px;
     margin-bottom: 70px;
@@ -88,25 +89,12 @@ a{
     margin-right: 90px;
     width: 550px;
     height: 430px;
+    margin-top: 20px;
 }
 
 /* Players Styles */
-/* .players{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
 
-.player{
-    width: 330px;
-    height: 474px;
-}
-
-.player, .thumbnail img{
-    width: 300px;
-    height: 256px;
-} */
-
-.players{
+.blogs{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 30px;
@@ -116,12 +104,25 @@ a{
     margin-bottom: 50px;
 }
 
-.player{
+.blog{
     padding: 15px;
     box-shadow: 0px 0px 40px lightgray;
 }
 
-.player .thumbnail img{
+.blog .thumbnail img{
     width: 300px;
     height: 256px;
+}
+
+.player-name{
+    font-size: 28px;
+    color: #18191F;
+    margin-top: 16px;
+}
+
+.player-details{
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+    margin-top: 10px;
 }
