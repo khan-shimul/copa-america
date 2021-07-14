@@ -135,6 +135,7 @@ a{
     flex-direction: column;
     align-items: center;
     background-color: #F7F7F7;
+    margin-bottom: 100px;
 }
 
 .letter-details{
@@ -144,7 +145,7 @@ a{
 }
 
 .letter-details .letter-title{
-    font-size: 30px;
+    font-size: 35px;
     color: #302B9C;
     margin-bottom: -10px;
 }
@@ -169,6 +170,71 @@ a{
     display: inline-block;
     margin-top: 10px;
     border-radius: 5px;
+}
+
+/* Photo Album Styles */
+.best-players{
+    width: 100%;
+    height: 600px;
+}
+.best-players .title{
+    font-size: 2em;
+    color: #2B2B98;
+    padding-left: 20px;
+}
+.photo-album {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 0 10px;
+}
+
+.photo-frame {
+    width: 300px;
+    height: 256px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.photo img {
+    width: 300px;
+    height: 256px;
+    border-radius: 10px;
+}
+
+.photo-detail {
+    position: absolute;
+    top: 0;
+    width: 300px;
+    display: none;
+}
+
+.photo-detail h3 {
+    background-color: white;
+    color: #302B9C;
+    text-align: center;
+}
+
+.photo-detail p {
+    text-align: center;
+    color: white;
+    padding: 0 5px;
+}
+
+.photo-frame:hover .photo-detail {
+    display: block;
+    background-color: #312b9caf;
+}
+
+.photo-frame:hover .photo {
+    transform: scale(1.4) skew(-5deg);
+}
+
+.photo {
+    transition: transform 3s;
 }
 
 /* Footer Styles */
